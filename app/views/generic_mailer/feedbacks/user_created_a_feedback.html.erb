@@ -1,0 +1,25 @@
+<p>Dear Admin,</p>
+
+<p>
+  <%= @feedback.from %>
+  sent you the following message:
+</p>
+
+<blockquote>
+  <p>
+    <label>Subject:</label>
+    <%= @feedback.subject %>
+  </p>
+  <%= simple_format(@feedback.message) %>
+</blockquote>
+
+<p>
+  Regards,
+  <br/>
+  Some Rails App
+</p>
+
+
+
+
+

@@ -1,0 +1,2 @@
+module GenericMailerHelper
+end
